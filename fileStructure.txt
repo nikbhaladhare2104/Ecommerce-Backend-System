@@ -1,0 +1,29 @@
+ecommerce-backend/
+├── config/
+│   └── db.js
+├── controllers/
+│   ├── authController.js
+│   ├── cartController.js
+│   ├── orderController.js
+│   ├── productController.js
+│   └── analyticsController.js
+├── middleware/
+│   └── authMiddleware.js
+├── models/
+│   ├── userModel.js
+│   ├── productModel.js
+│   ├── orderModel.js
+│   └── cartModel.js
+├── routes/
+│   ├── authRoutes.js
+│   ├── cartRoutes.js
+│   ├── orderRoutes.js
+│   ├── productRoutes.js
+│   └── analyticsRoutes.js
+├── utils/
+│   └── validation.js
+├── .env
+├── .gitignore
+├── app.js
+├── package.json
+└── README.md
